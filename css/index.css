@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+
+
+
+/*slider*/
+#slider {border-bottom: 1px solid rgb(238, 238, 238);}
+#slider {width: 100%; height: 490.67px; margin: 0 auto; overflow: hidden; }
+#slider > .slide-wrap {width: 100%; margin: 0 auto; margin-left: -2150px;}
+#slider > .slide-wrap > .imgbox {width: 8400px; height: 450px; margin: 0 auto; display: flex; }
+#slider > .slide-wrap > .img-box > li {float: left;}
+#slider > .slide-wrap > .imgbox > li > img {width: 1200px; height: 450px; margin-left: 20px; margin-right: 20px; padding-top: 20px; padding-bottom: 15px;}
+
+/*section*/
+section {width: 1260px; height: 4800px; margin: 0 auto;}
+/*quick menu*/
+#quick-menu {width: 1230px; height: 255.88px; margin: 0 auto; border-bottom: 1px solid rgb(238, 238, 238);}
+#quick-menu > ul {font-size: 15px; letter-spacing: -1px}
+#quick-menu > ul > li {display: block; text-align: center; box-sizing: border-box; float: left; margin: 0 0 0 25px;}
+#quick-menu > ul:nth-of-type(1) {margin: 0 0 0 40px; padding: 60px 0 0 0;}
+#quick-menu > ul > li > a {text-decoration: none; color: #333;}
+
+
+/*slider banner*/
+#slider-banner {width: 1200px; height: 190px; margin: 0 auto; overflow: hidden;}
+#slider-banner > .banner-img {display: flex;}
+#slider-banner > .banner-img > li {float: left;}
+#slider-banner > .banner-img > li > img {width: 1200px; height: 130px; padding-top: 60px;}
+
+/*main-content1*/
+#main-content1 {width: 1200px; height: 1650px; margin: 0 auto;}
+#main-content1 > .saja {margin-top: 60px;}
+#main-content1 > .saja > h3 {width: 1200px; height: 120px;
+                    margin: 0 auto; text-align: center;}
+#main-content1 > .saja > h3 > img {margin: 2px;}
+/*saja-menu*/
+#main-content1 > .saja-menu {float: left; width: 1200px; height: 80px; margin: 0 auto;}
+#main-content1 > .saja-menu > button {width: 200px; height: 80px; float: left; text-align: center; font-size: 16px;
+                            color: #666; border: 0px; background: none; cursor: pointer;}
+#main-content1 > .saja-menu > button:nth-of-type(1) {color: #df0011; font-weight: 600; border-bottom: 3px solid #df0011;}
+
+/*saja-product*/
+#main-content1 > .saja-box {width: 374px; height: 543.05px; float:left; margin: 20px 23px 60px 0px; overflow:hidden;}
+#main-content1 > .saja-box > .text-box > h1 {color: #df0011; width: auto; height: 44px; font-size: 15px;
+                                box-sizing: border-box; font-weight: 300; margin: 15px 0 -35px 0;} 
+#main-content1 > .saja-box > .text-box > h5 {color: rgb(51, 51, 51); width: auto; height: 44px; font-size: 15px;
+                                box-sizing: border-box; font-weight: 300; margin: 15px 0 0 0;}
+#main-content1 > .saja-box > .text-box > p {font-size: 13px; color: rgb(51, 51, 51);}
+#main-content1 > .saja-box > .text-box > p > span {margin: 7px 5px 10px 0px; font-size: 27px; font-weight: 700;
+                                        line-height: 0.59; color: rgb(223, 0, 17); box-sizing: border-box;}
+#main-content1 > .saja-box > .text-box > p > strong {margin: 7px 5px 10px 0px; font-size: 27px; font-weight: 700;
+                                        line-height: 26px; color: rgb(51, 51, 51); box-sizing: border-box;}
+#main-content1 > .saja-box > .text-box > h6 {font-size: 12px; color: #999; font-weight: 200; margin: 10px 0 0 0;} 
+#main-content1 > .saja-box > .text-box > h6 > img {width: 15px; height: 15px; margin: 0 0 -3px;}
+
+#main-content1 > .saja-box > .img-box > .main {position: relative;}
+#main-content1 > .saja-box > .img-box > .main > .img-con > a > img {width: 374px; height: 374px; margin : 0 auto;
+                                                        transform: scale(1); transition: all 0.2s ease-in-out; }
+
+#main-content1 > .saja-box > .img-box > .main > .flag > img {float: right; margin: 4px 4px 12px 0px; position: absolute; top: 0; right: 0;}
+#main-content1 > .saja-box > .img-box > .main > .flag > span {float: left; margin: 4px 0px 12px 4px; position: absolute; top: 0; left: 0;
+                                                    background: url("../img/icon/icon_unit_flag.png") 0% 0% / 100% no-repeat;
+                                                    width: 56px; height: 56px;}
+#main-content1 > .saja-box > .img-box > .main > .flag {display: block; transition: all 0.3s ease-in-out;}                                                              
+#main-content1 > .saja-box > .img-box > .main > .flag > span > p {text-align: center; font-size: 16px; color: #ec4444; font-weight: bold;
+                                                        margin: 12px 0 4px;}
+/*hover*/
+#main-content1 > .saja-box > .img-box > .main:hover > .img-con > a > img {transform: scale(1.03);}
+#main-content1 > .saja-box > .img-box > .main:hover > .flag {display: none;}                                                                    
+
+/*refresh*/
+#main-content1 > .refresh {float: left; width: 1200px; height: 70px; margin: 0 0 60px 0;}
+#main-content1 > .refresh > button {width: 840px; height: 70px; line-height: 70px; font-size: 18px; margin: 0 auto;
+                        display: block; color: rgb(51, 51, 51); border-radius: 3px; text-align: center;
+                        border: 1px solid rgb(153, 153, 153); background-color: #fff; cursor: pointer;}
+#main-content1 > .refresh > button > span {font-size: 18px; color: rgb(51, 51, 51);}         
+#main-content1 > .refresh > button > img {margin: 0 10px -3px 0;}                         
+
+
+
+
+/*main-content2*/
+#main-content2 {width: 1200px; height: 870px; margin: 0 auto; border-top: 1px solid rgb(238, 238, 238);}
+#main-content2 > .jaju > h3 {width: 1200px; height: 120px;
+                    margin: 0 auto; text-align: center;}
+#main-content2 > .jaju > h3 > img {margin: 2px;}
+/*jaju-menu*/
+#main-content2 > .jaju-menu {float: left; width: 1200px; height: 80px; margin: 0 auto;}
+#main-content2 > .jaju-menu > button {width: 240px; height: 80px; float: left; text-align: center; font-size: 16px;
+                            color: #666; border: 0px; background: none; cursor: pointer; margin: 0 auto; display: block;}
+#main-content2 > .jaju-menu > button:nth-of-type(1) {color: #df0011; font-weight: 600; border-bottom: 3px solid #df0011; margin: 0 0 0 240px;}     
+
+/*jaju-product*/
+#main-content2 > .jaju-box {width: 270px; height: 442px; float:left; margin: 20px 27px 60px 0px; overflow:hidden;}                            
+#main-content2 > .jaju-box > .text-box > h5 {color: rgb(51, 51, 51); width: auto; height: 44px; line-height: 1.47; font-size: 15px;
+                        box-sizing: border-box; font-weight: 300; margin: 15px 0 0 0;}
+#main-content2 > .jaju-box > .text-box > p {font-size: 13px; color: rgb(51, 51, 51);}
+#main-content2 > .jaju-box > .text-box > p > strong {margin: 7px 5px 10px 0px; font-size: 27px; font-weight: 700;
+                                line-height: 26px; color: rgb(51, 51, 51); box-sizing: border-box;}
+
+#main-content2 > .jaju-box > .text-box > h6 {font-size: 12px; color: #999; font-weight: 200; margin: 10px 0 0 0;}        
+#main-content2 > .jaju-box > .text-box > h6 > img {width: 15px; height: 15px; margin: 0 0 -3px;}   
+
+#main-content2 > .jaju-box > .text-box > button {width: 100%; text-align: center; font-size: 12px; color: #333; cursor: pointer;
+                            padding: 13px 0 13px; margin: 15px 0 0 0; line-height: 1;
+                            border-radius: 3px; border: 1px solid rgb(153, 153, 153); background-color: #fff;}
+
+#main-content2 > .jaju-box > .img-box > .main {position: relative;}
+#main-content2 > .jaju-box > .img-box > .main > .img-con > a > img {width: 100%; height: 270px; margin : 0 auto; 
+                transform: scale(1); transition: all 0.2s ease-in-out; }
+
+#main-content2 > .jaju-box > .img-box > .main > .flag > img {float: right; margin: 4px 4px 12px 0px; position: absolute; top: 0; right: 0;}
+#main-content2 > .jaju-box > .img-box > .main > .flag > span {float: left; margin: 4px 0px 12px 4px; position: absolute; top: 0; left: 0;
+                                                    background: url("../img/icon/icon_unit_flag.png") 0% 0% / 100% no-repeat;
+                                                    width: 56px; height: 56px;}
+
+#main-content2 > .jaju-box > .img-box > .main > .flag {display: block; transition: all 0.3s ease-in-out;} 
+#main-content2 > .jaju-box > .img-box > .main > .flag > span > p {text-align: center; font-size: 16px; color: #ec4444; font-weight: bold;
+                                                        margin: 20px 0 4px;}
+
+/*hover*/
+#main-content2 > .jaju-box > .img-box > .main:hover > .img-con > a > img {transform: scale(1.03);}
+#main-content2 > .jaju-box > .img-box > .main:hover > .flag {display: none;} 
+
+
+/*more-product*/
+#main-content2 > .more-product {float: left; width: 1200px; height: 70px; margin: 0 0 60px 0;}
+#main-content2 > .more-product > button {width: 840px; height: 70px; line-height: 70px; font-size: 18px; margin: 0 auto;
+                        display: block; color: rgb(51, 51, 51); border-radius: 3px; text-align: center;
+                        border: 1px solid rgb(153, 153, 153); background-color: #fff; cursor: pointer;}
+#main-content2 > .more-product > button > span {font-size: 18px; color: rgb(51, 51, 51);}         
+
+
+/*main-content3*/
+#main-content3 {width: 1200px; height: auto; margin: 0 auto;}
+#main-content3 > .shopping > h3 {width: 1200px; height: 120px;
+                    margin: 0 auto; text-align: center;}
+#main-content3 > .shopping > h3 > img {margin: 2px;}
+/*shopping-menu*/
+#main-content3 > .shopping-menu {float: left; width: 1200px; height: 80px; margin: 0 auto;}
+#main-content3 > .shopping-menu > button {width: 240px; height: 80px; float: left; text-align: center; font-size: 16px;
+                            color: #666; border: 0px; background: none; cursor: pointer; margin: 0 auto; display: block;}
+#main-content3 > .shopping-menu > button:nth-of-type(1) {color: #df0011; font-weight: 600; border-bottom: 3px solid #df0011; margin: 0 0 0 120px;}                                     
+/*shopping-product*/
+#main-content3 > .shopping-box {width: 270px; height: 442px; float:left; margin: 20px 27px 40px 0px; overflow:hidden;}
+#main-content3 > .shopping-box > .text-box > h1 {color: #df0011; width: auto; height: 44px; font-size: 15px;
+                        box-sizing: border-box; font-weight: 300; margin: 15px 0 -35px 0;}                              
+#main-content3 > .shopping-box > .text-box > h5 {color: rgb(51, 51, 51); width: auto; height: 44px; font-size: 15px;
+                        box-sizing: border-box; font-weight: 300; margin: 15px 0 0 0;}
+#main-content3 > .shopping-box > .text-box > p {font-size: 13px; color: rgb(51, 51, 51);}
+#main-content3 > .shopping-box > .text-box > p > strong {margin: 7px 5px 10px 0px; font-size: 27px; font-weight: 700;
+                                line-height: 26px; color: rgb(51, 51, 51); box-sizing: border-box;}
+
+#main-content3 > .shopping-box > .text-box > h6 {font-size: 12px; color: #999; font-weight: 200; margin: 10px 0 0 0;}        
+#main-content3 > .shopping-box > .text-box > h6 > img {width: 15px; height: 15px; margin: 0 0 -3px;}   
+
+#main-content3 > .shopping-box > .text-box > button {width: 100%; text-align: center; font-size: 12px; color: #333; cursor: pointer;
+                            padding: 13px 0 13px; margin: 15px 0 0 0; line-height: 1;
+                            border-radius: 3px; border: 1px solid rgb(153, 153, 153); background-color: #fff;}
+
+#main-content3 > .shopping-box > .img-box > .main {position: relative;}
+#main-content3 > .shopping-box > .img-box > .main > .img-con > a > img {width: 100%; height: 270px; margin : 0 auto; 
+                transform: scale(1); transition: all 0.2s ease-in-out; }
+
+#main-content3 > .shopping-box > .img-box > .main > .flag > img {float: right; margin: 4px 4px 12px 0px; position: absolute; top: 0; right: 0;}
+#main-content3 > .shopping-box > .img-box > .main > .flag > span {float: left; margin: 4px 0px 12px 4px; position: absolute; top: 0; left: 0;
+                                                    background: url("../img/icon/icon_unit_flag.png") 0% 0% / 100% no-repeat;
+                                                    width: 56px; height: 56px;}
+#main-content3 > .shopping-box > .img-box > .main > .flag {display: block; transition: all 0.3s ease-in-out;}                                                                 
+#main-content3 > .shopping-box > .img-box > .main > .flag > span > p {text-align: center; font-size: 16px; color: #ec4444; font-weight: bold;
+                                                        margin: 12px 0 4px;}
+
+/*hover*/
+#main-content3 > .shopping-box > .img-box > .main:hover > .img-con > a > img {transform: scale(1.03);}
+#main-content3 > .shopping-box > .img-box > .main:hover > .flag {display: none;} 
+
+
+
+

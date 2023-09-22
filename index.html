@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeplus</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="js/quick-json.js"></script>
+    <script src="js/img-json.js"></script>
+    <script src="js/txt-json.js"></script>
+
+    <script src="js/menu.js"></script>
+    <script src="js/slider-main.js"></script>
+    <script src="js/slider-banner.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <!--inner-->
+        <div id="inner">
+            <!--logo-->
+            <div id="logo">
+                <a href="#"><img src="img/logo/homeplus_logo.png" alt="로고"></a>
+            </div>
+
+            <!--search box-->
+            <div id="search-box">
+                <input type="search" name="keyword" placeholder="　검색어를 입력하세요">
+                <button type="submit"><img src="img/icon/icon_lens.png" alt="검색이미지"></button>
+            </div>
+
+            <!--user box-->
+            <div id="user-box">
+                <div class="user-box-img">
+                    <a href="#"><img src="img/icon/icon_power.png" alt="로그인1"></a>
+                </div>
+
+                <div class="user-box-img">
+                    <a href="#"><img src="img/icon/icon_login2.png" alt="마이홈"></a>
+                </div>
+
+                <div class="user-box-img">
+                    <a href="#"><img src="img/icon/icon_cart3.png" alt="장바구니1"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--category-->
+    <div id="category">
+        <!--category-box-->
+        <div id="category-box">
+            <button type="button" name="category">
+                <ul class="menu">
+                    <img src="img/icon/icon_category.png" alt="카테고리배경">
+                    <img src="img/icon/icon_3point.png" alt="점박이세개">
+                    <li class="cate-menu"><a href="#">카테고리</a>
+                        <ul class="sub">
+                            <li><a href="#">과일</a></li>
+                            <li><a href="#">쌀/잡곡</a></li>
+                            <li><a href="#">채소</a></li>
+                            <li><a href="#">견과</a></li>
+                            <li><a href="#">수산물/건어물</a></li>
+                            <li><a href="#">정육/계란</a></li>
+                            <li><a href="#">친환경/유기농</a></li>
+                            <li><a href="#">델리/치킨/초밥</a></li>
+                            <li><a href="#">우유/유제품</a></li>
+                            <li><a href="#">냉장/냉동/밀키트</a></li>
+
+                            <li><a href="#">두부/김치/반찬</a></li>
+                            <li><a href="#">커피/차</a></li>
+                            <li><a href="#">생수/음료</a></li>
+                            <li><a href="#">주류이지픽업</a></li>
+                            <li><a href="#">과자/시리얼</a></li>
+                            <li><a href="#">베이커리/잼</a></li>
+                            <li><a href="#">라면/즉석식품/통조림</a></li>
+                            <li><a href="#">장류/양념/제빵</a></li>
+                            <li><a href="#">세탁/청소/욕실</a></li>
+                            <li><a href="#">제지/위생/뷰티</a></li>
+
+                            <li><a href="#">건강식품</a></li>
+                            <li><a href="#">반려동물</a></li>
+                            <li><a href="#">유아동</a></li>
+                            <li><a href="#">주방용품</a></li>
+                            <li><a href="#">리빙/인테리어</a></li>
+                            <li><a href="#">패션의류/잡화</a></li>
+                            <li><a href="#">문구/취미용품</a></li>
+                            <li><a href="#">가전/디지털</a></li>
+                            <li><a href="#">자동차/레저</a></li>
+                            <li><a href="#">E쿠폰/여행</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </button>
+            <!--category-list-->
+            <div id="category-list">
+                <ul>
+                    <li><a href="#">신상품</a></li>
+                    <li><a href="#">단독특가</a></li>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">전단행사</a></li>
+                    <li><a href="#">브랜드관</a></li>
+                    <li><a href="#">자주구매</a></li>
+                    <li><a href="#">택배배송</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--slider-->
+    <div id="slider">
+        <div class="slide-wrap">
+            <ul class="imgbox">
+                <li><img src="img/slider/slider2.png" alt="슬라이더2"></li>
+                <li><img src="img/slider/slider3.jfif" alt="슬라이더3"></li>
+                <li><img src="img/slider/slider1.png" alt="슬라이더1"></li>
+                <li><img src="img/slider/slider12.jfif" alt="슬라이더4"></li>
+                <li><img src="img/slider/slider13.png" alt="슬라이더5"></li>
+                <li><img src="img/slider/slider17.png" alt="슬라이더6"></li>
+                <li><img src="img/slider/slider19.jfif" alt="슬라이더7"></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!--section-->
+    <section>
+        <!--quick menu-->
+        <div id="quick-menu">
+            <ul class="li-box">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <!--slider banner-->
+        <div id="slider-banner">
+            <ul class="banner-img">
+                <li><img src="img/slide_banner/banner1.png" alt="슬라이드배너1"></li>
+                <li><img src="img/slide_banner/banner2.png" alt="슬라이드배너2"></li>
+            </ul>
+        </div>
+
+        <!--main content1-->
+        <div id="main-content1">
+            <div class="saja">
+                <h3>
+                    <img src="img/text/text_saja.png" alt="사자">
+                </h3>
+            </div>
+            <!--saja-menu-->
+            <div class="saja-menu">
+                <button type="button">MD추천</button>
+                <button type="button">신선한</button>
+                <button type="button">식품</button>
+                <button type="button">간편한</button>
+                <button type="button">가공필템</button>
+                <button type="button">생활용품</button>
+            </div>
+            <!--saja-product-->
+            <div class="saja-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="saja-box">
+                <div class="img-box"></div>
+                <div class="text-box">
+                </div>
+            </div>
+
+            <div class="saja-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="saja-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="saja-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="saja-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <!--refresh-->
+            <div class="refresh">
+                <button type="button">
+                    <img src="img/icon/icon_refresh.svg" alt="새로보기">
+                    <span><strong>다음 상품</strong>새로보기 1/6</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!--main content2-->
+        <div id="main-content2">
+            <div class="jaju">
+                <h3>
+                    <img src="img/text/text_event.png" alt="자주찾게되는">
+                </h3>
+            </div>
+            <!--jaju-menu-->
+            <div class="jaju-menu">
+                <button type="button">1+1</button>
+                <button type="button">천원의 행복</button>
+                <button type="button">50%</button>
+            </div>
+            <!--jaju-product-->
+            <div class="jaju-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="jaju-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="jaju-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="jaju-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <!--more-product-->
+            <div class="more-product">
+                <button type="button">
+                    <span><strong>1+1</strong>더 많은 상품보기 ></span>
+                </button>
+            </div>
+        </div>
+
+
+        <!--main content3-->
+        <div id="main-content3">
+            <div class="shopping">
+                <h3>
+                    <img src="img/text/text_recommend.png" alt="쇼핑큐레이션">
+                </h3>
+            </div>
+            <!--shopping-menu-->
+            <div class="shopping-menu">
+                <button type="button">신선채소</button>
+                <button type="button">간식타임</button>
+                <button type="button">향기솔솔</button>
+                <button type="button">향기솔솔</button>
+            </div>
+            <!--shopping-product-->
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+            <div class="shopping-box">
+                <div class="img-box"></div>
+                <div class="text-box"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--footer-->
+    <footer>
+        <!--footer-line-->
+        <div id="footer-line">
+            <!--footer-link-->
+            <div class="footer-link">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li>|</li>
+                    <li><a href="#">공지사항</a></li>
+                    <li>|</li>
+                    <li><a href="#">이용약관</a></li>
+                    <li>|</li>
+                    <li><a href="#"><span>개인정보처리방침</span></a></li>
+                    <li>|</li>
+                    <li><a href="#">청소년보호정책</a></li>
+                    <li>|</li>
+                    <li><a href="#">입점·제휴문의</a></li>
+                    <li>|</li>
+                    <li><a href="#">고객의견함</a></li>
+                    <li>|</li>
+                    <li><a href="#">인재채용</a></li>
+                </ul>
+
+                <!--footer-button-->
+                <div class="footer-button">
+                    <ul>
+                        <li><a href="#" target="_blank">매장찾기</a></li>
+                    </ul>
+                    <img src="img/icon/icon_mart_search.png" alt="매장찾기">
+                    <button type="button">Family Site</button>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-content-->
+        <div id="footer-content">
+            <div id="footer-h3">
+                <h3>홈플러스 주식회사</h3>
+            </div>
+            <!--footer-dl-->
+            <div class="footer-ul">
+                <ul>
+                    <li>대표이사: 이제훈</li>
+                    <li>|</li>
+                    <li>주소: 서울특별시 강서구 화곡로 398(등촌동)</li>
+                    <li>|</li>
+                    <li>사업자등록번호: 220-81-60348</li><br>
+                    <li>통신판매신고번호: 2016-서울강서-0451호 <a href="#">사업자 정보확인</a></li>
+                    <li>|</li>
+                    <li>청소년 보호책임자: 조혜영</a></li>
+                </ul>
+
+            </div>
+            <!--footer-pbox-->
+            <div class="footer-pbox">
+                <div id="footer-p1">
+                    <p>사이트 내에는 홈플러스㈜에 입점한 개별판매자가 판매하는 상품이 포함되어 있습니다.<br>
+                        해당 상품의 경우 홈플러스㈜는 통신판매중개자로서 판매 당사자가 아니며, 상품정보 및 거래 등에 대한 책임을 지지 않습니다</p>
+                </div>
+
+                <div id="footer-p2">
+                    <strong>소비자피해보상보험</strong>
+                    <a href="#">서비스 가입사실 확인</a>
+                    <p>고객님은 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한 구매안전서비스 소비자 피해보상보험 서비스를 이용하실 수 있습니다.</p>
+                </div>
+
+                <div id="footer-p3">
+                    <p>Copyright ©<strong>Homeplus Co., LTD</strong>. All Rights Reserved.</p>
+                </div>
+            </div>
+
+            <div class="footer-pbox-right">
+                <div id="footer-right1">
+                    <h3>고객센터</h3>
+                    <span>1577-3355</span><br>
+                    <ul>
+                        <li>업무시간:09시~22시(명절당일 휴무)</li>
+                        <li>Email:
+                            <a class="email" href="mailto:onlinemart@homeplus.co.kr">
+                                onlinemart@homeplus.co.kr</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="footer-right2">
+                    <h3>분쟁처리</h3>
+                    <span>1577-3355</span><br>
+                    <ul>
+                        <li>Email:
+                            <a class="email" href="mailto:onlinemart@homeplus.co.kr">
+                                onlinemart@homeplus.co.kr</a>
+                        </li>
+                    </ul>
+                    <button type="button">분쟁처리 절차</button>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

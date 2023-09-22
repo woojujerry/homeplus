@@ -1,0 +1,411 @@
+@charset "utf-8";
+
+
+
+
+table, tr, th ,td {margin:0; padding:0;}
+a {text-decoration: none;}
+
+#sub {width:100%; height:16770px; margin:0 auto; background-color:rgb(255, 255, 255); letter-spacing: -1px}
+/*sub-menu*/
+#sub-menu {width:1200px; height:50px; margin: 0 auto;}
+#sub-menu > ul {float: left; margin: 0 auto;}
+#sub-menu > ul > li {font-size: 12px; color: #999; float: left; margin: 20px 10px 0 0;}
+#sub-menu > ul > li > a {text-decoration: none; color: #999;}
+
+
+/*selling-peach*/
+#selling-peach {width: 1200px; height: 1270px;margin: 0 auto; position: relative;}
+/*peach-box*/
+#peach-box {width: 560px; height: 560px; float: left; margin: 0 auto;}
+#peach-box > .main {position: relative;}
+#peach-box > .main > .img-con > a > img {width: 560px; height: 560px; margin: 0 auto;}
+#peach-box > .main > .flag > img {float: right; margin: 4px 4px 12px 0px; position: absolute; top: 0; right: 0;}
+#peach-box > .main > .flag > span {float: left; margin: 4px 0px 12px 4px; position: absolute; top: 0; left: 0;
+background: url("../img/icon/icon_unit_flag.png") 0% 0% / 100% no-repeat;
+width: 75px; height: 75px;}
+#peach-box > .main > .flag {display: block;}                                                              
+#peach-box > .main > .flag > span > p {text-align: center; font-size: 21px; color: #ec4444; font-weight: 600;
+margin: 16px 0 4px;}
+
+
+/*peach-list*/
+#peach-list {width: 560px; height: 97px; float: left; margin: 580px 0 0 0; position: absolute; top: 0; left: 0;}
+#peach-list > ul > li > img {width: 90px; height: 90px; float: left; margin: 0 auto; box-sizing: border-box;}
+#peach-list > ul > li > img:nth-of-type(1) {margin: 3.5px 10px 0 0;}
+
+/*peach-list-hover*/
+#peach-list > ul > li > img:hover {border: 3px solid #df0011; cursor: pointer;}
+
+
+/*star-review*/
+#star-review {width: 560px; height: 123px; float: left; margin: 697px 0 0; position: absolute;
+top: 0; left: 0; border-top: 1px solid rgb(238, 238, 238);}
+/*star-area*/
+#star-review > .star-area {width: 245.13px; height: 92px; float: left; margin: 31px auto;}
+/*star*/
+.star-area > .star {width: 245.13px; height: 30px; float: left; margin: 0 auto;}
+.star-area > .star > ul {float: left; margin: 0 auto;}
+.star-area > .star > ul > li {float: left;}
+.star-area > .star > ul > li > strong {font-size: 24px; color: #333; margin: 0 15px 0 0;}
+.star-area > .star > ul > li > img {width: 25px; height: 25px; margin: 0 13px 0 0;}
+
+
+/*review-count*/
+.star-area > .review-count {width: 245.13px; height: 62px; float: left; margin: 0 auto;}
+.star-area > .review-count > h1 {font-size: 15px; color: #333;}
+.star-area > .review-count > h2 {font-size: 15px; color: #333;}
+.star-area > .review-count > button {width: 19px; height: 19px; float: right; margin: -17px 94px 20px 0px; position: relative;}
+.star-area > .review-count > button > img {position: absolute; top: -1px; left: -2px;}
+
+
+/*month-total*/
+#star-review > .month-total {width: 142.17px; height: 23px; float: right; margin: 31px auto;}
+#star-review > .month-total > strong {font-size: 18px; color: #666;}
+
+
+/*selling*/
+#selling {width: 560px; height: 820px; float: right; margin: 0 auto; position: absolute; top: 0; right: 0;}
+/*card-dis*/
+.card-dis {width: 83px; height: 25px; float: left; margin: 0 auto; padding: 0 2px 0 2px; text-align: center;
+border: 1px solid rgb(149, 178, 204); border-radius: 3px; font-size: 12px; color: rgb(89, 120, 147);
+line-height: 23px;}
+
+
+/*title*/
+.title {width: 560px; height: 70px; float: left; margin: 25px 0 0 0;}
+.title > h3, h4 {font-size: 27px; color: #333;}
+.title > h4 {margin: 10px 0 0 0;}
+
+
+/*price*/
+.price {width: 415px; height: 80px; float: left; margin: 50px 0 0 0;}
+.price > ul {float: left; margin: 0 auto;}
+.price > ul > li {float: left;}
+.price > #price-ul1 > li:nth-of-type(1) {font-size: 12px; color: #999; margin: 21px 0 0 0;}
+.price > #price-ul1 > li:nth-of-type(3) {font-size: 12px; color: #999; margin: 21px 0 0 10px;}
+.price > #price-ul1 > li:nth-of-type(2) {font-size: 18px; color: #333; margin: 0 0 0 55px;}
+.price > #price-ul1 > li:nth-of-type(2) > strong {font-size: 36px; color: #333;}
+
+.price > #price-ul2 > li:nth-of-type(1) {font-size: 12px; color: #999; margin: 25px 0 0 0;}
+.price > #price-ul2 > li:nth-of-type(3) {font-size: 12px; color: #999; margin: 25px 0 0 10px;}
+.price > #price-ul2 > li:nth-of-type(2) {font-size: 15px; color: #666; margin: 25px 0 0 40px;}
+
+
+/*info1*/
+.info1 {width: 560px; height: 60px; float: left; margin: 35px 0 0 0; border-bottom: 1px solid rgb(238, 238, 238);}
+.info1 > ul {float: left; margin: 25px 0 0 0;}
+.info1 > ul > li {float: left; font-size: 15px;}
+.info1 > ul > li > button {width: 21px; height: 21px; background: none; position: relative;
+border: none; cursor: pointer;}
+.info1 > ul > li > button > img {position: absolute; top: 0; left: 0;}
+
+.info1 > ul > li:nth-of-type(1) {color: #333; font-weight: 600; margin: 0 90px 0 0;}
+.info1 > ul > li:nth-of-type(2) {color: #666; margin: 0 8px 0 0;}
+.info1 > ul > li:nth-of-type(3) {margin: -4px 18px 0px 0;}
+.info1 > ul > li:nth-of-type(4) {color: #666; margin: 0 9px 0 0;}
+.info1 > ul > li:nth-of-type(5) {margin: -4px 18px 0px 0;}
+
+
+/*info2*/
+.info2 {width: 560px; height: 60px; float: left; margin: 0 auto; border-bottom: 1px solid rgb(238, 238, 238);}
+.info2 > ul {float: left; margin: 25px 0 0 0;}
+.info2 > ul > li {float: left; font-size: 15px;}
+.info2 > ul > li:nth-of-type(1) {color: #333; font-weight: 600; margin: 0 90px 0 0;}
+.info2 > ul > li:nth-of-type(2) {color: #666; margin: 0 8px 0 0;}
+
+
+/*info3*/
+.info3 {width: 560px; height: 90px; float: left; margin: 0 auto; border-bottom: 1px solid rgb(238, 238, 238);}
+.info3 > ul {float: left; margin: 25px 0 0 0;}
+.info3 > ul > li {float: left; font-size: 15px;}
+.info3 > ul > li:nth-of-type(1) {color: #333; font-weight: 600; margin: 0 90px 0 0;}
+.info3 > ul > li:nth-of-type(2) {color: #666; margin: 0 8px 0 0;}
+.info3 > ul > li:nth-of-type(2) > a {color: #0091FF; text-decoration: underline; font-weight: 600;}
+
+
+/*select-area*/
+.select-area {width: 560px; height: 110px; background-color: rgb(249, 250, 251); float: left;
+margin: 40px 0 0 0; border: 1px solid rgb(221, 221, 221); border-radius: 3px;}
+
+.select-area > h1 {font-size: 15px; color: #666; margin: 25px 20px 15px 20px;}
+.select-area > select {width: 120px; height: 35px; margin: 0px 0 0 20px;}
+.select-area > p {font-size: 15px; float: right; margin: 15px 20px 0 0px;}
+.select-area > p > strong {font-size: 18px;}
+
+
+/*tot-price*/
+.tot-price {width: 560px; height: 45px; float: left; margin: 30px 0 0 0;}
+.tot-price > ul {margin: 0 auto;}
+.tot-price > ul > li:nth-of-type(1) {float: left; font-size: 18px; color: #333; margin: 15px 0 0 0;}
+.tot-price > ul > li:nth-of-type(2) {float: right; font-size: 18px; color: #333;}
+.tot-price > ul > li:nth-of-type(2) > strong {font-size: 36px; color: #df0011;}
+
+
+/*btn-area*/
+.btn-area {width: 560px; height: 70px; float: left; margin: 20px 0 0 0;}
+.btn-area > button:nth-of-type(1) {width: 70px; height: 70px; background: none;
+cursor: pointer; border-radius: 3px; border: 1px solid rgb(221, 221, 221); margin: 0 15px 0 0; float: left;}
+.btn-area > button:nth-of-type(1) > img {width: 30px; height: 30px;}
+
+.btn-area > button:nth-of-type(2) {width: 236.5px; height: 70px; background-color: rgb(51, 51, 51);
+color: #fff; cursor: pointer; border-radius: 3px; border: none; float: left; margin: 0 2px 0 0;
+font-size: 24px;}
+
+.btn-area > button:nth-of-type(3) {width: 236.5px; height: 70px; background-color: #df0011;
+color: #fff; cursor: pointer; border-radius: 3px; border: none; float: left;
+font-size: 24px;}
+
+
+/*cate-product*/
+#cate-product {width: 560px; height: 317px; float: left; margin: 880px 0 0 0; position: absolute; top: 0; left: 0;}
+#cate-product > h5 {font-size: 24px; color: #333; font-weight: 600;}
+
+.cate-box {width: 180px; height: 259px; float: left; margin: 25px 4.5px 0 0;}
+.cate-box > a {text-decoration: none;}
+.cate-box > a > img {border-radius: 3px;}
+.cate-box > a > h6 {font-size: 15px; color: #333; font-weight: 600; margin: 12px auto;}
+.cate-box > a > p {font-size: 15px; color: #333;}
+/*hover*/
+.cate-box > a > img:hover {opacity: 0.7;}
+
+
+/*hot-product*/
+#hot-product {width: 560px; height: 317px; float: right; margin: 880px 0 0 0; position: absolute; top: 0; right: 0;}
+#hot-product > h5 {font-size: 24px; color: #333; font-weight: 600;}
+
+.hot-box > a {text-decoration: none;}
+.hot-box {width: 180px; height: 259px; float: left; margin: 25px 4.5px 0 0;}
+.hot-box > a > img {border-radius: 3px;}
+.hot-box > a > h6 {font-size: 15px; color: #333; font-weight: 600; margin: 12px auto;}
+.hot-box > a > p {font-size: 15px; color: #333;}
+/*hover*/
+.hot-box > a > img:hover {opacity: 0.7;}
+
+
+/*contents-menu*/
+#contents-menu {width: 100%; height: 70px; background-color: rgb(249, 250, 251); float: left; margin: 0 auto;}
+#contents-menu > .menu-btn {width: 1200px; height: 100%; margin: 0 auto;}
+#contents-menu > .menu-btn > button {width: 280px; height: 70px; float: left; text-align: center; font-size: 18px;
+color: #333; font-weight: 600; border: 0px; background: none; cursor: pointer; letter-spacing: -1px}
+#contents-menu > .menu-btn > button:nth-of-type(1) {color: #df0011; border-bottom: 3px solid #df0011; margin: 0 auto;}
+
+
+/*상품상세*/
+#pro-detail  {width: 1200px; height: 12200px; margin: 0 auto;}
+/*상품상세이미지*/
+#pro-detail > #imgbox {margin: 0 auto; width: 840px; height: 12000px;}
+#imgbox > a > img {width: 840px; height: 240px; margin: 50px auto;}
+#imgbox > img:nth-of-type(1) {width: 840px; height: 248px; margin: 0 0 50px 0;}
+#imgbox > img:nth-of-type(2) {width: 800px; height: 11395px; margin: 0 20px 0 20px;}
+
+
+/*상품고시정보*/
+#notice {width: 1200px; height: 779px; margin: 0 auto;}
+#notice > h1 {width: 1200px; height: 48px; margin: 0 auto; font-size: 24px; font-weight: 600; color: #333;
+border-bottom: 3px solid rgb(51, 51, 51);}
+
+#notice > .noti-ul {width: 1200px; height: 651px; margin: 0 auto; line-height: 1.3; font-size: 15px;
+color: #666;}
+
+.noti-ul > #ul1 {width: 1200px; height: 51px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul1 > ul > li {float: left; margin: 17px 420px 0 13px;}
+
+.noti-ul > #ul2 {width: 1200px; height: 51px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul2 > ul > li {float: left; margin: 17px 317px 0 13px;}
+.noti-ul > #ul2 > ul > li:nth-of-type(2) {margin: 17px 0 0 72px;}
+
+.noti-ul > #ul3 {width: 1200px; height: 51px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul3 > ul > li {float: left; margin: 17px 198px 0 13px;}
+
+.noti-ul > #ul4 {width: 1200px; height: 75px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul4 > ul > li {float: left; margin: 29px 0 0 13px;} 
+.noti-ul > #ul4 > ul > li:nth-of-type(2) {margin: 20px 0 0 193px;}
+
+.noti-ul > #ul5 {width: 1200px; height: 51px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul5 > ul > li {float: left; margin: 17px 125px 0 13px;}
+.noti-ul > #ul5 > ul > li:nth-of-type(2) {margin: 20px 0 0 35px;}
+
+.noti-ul > #ul6 {width: 1200px; height: 75px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul6 > ul > li {float: left; margin: 29px 0 0 13px;}
+.noti-ul > #ul6 > ul > li:nth-of-type(2) {margin: 20px 0 0 163px;}
+
+.noti-ul > #ul7 {width: 1200px; height: 51px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul7 > ul > li {float: left; margin: 17px 311px 0 13px;}
+.noti-ul > #ul7 > ul > li:nth-of-type(2) {margin: 17px 0 0 20px;}
+
+.noti-ul > #ul8 {width: 1200px; height: 51px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul8 > ul > li {float: left; margin: 17px 410px 0 13px;}
+
+.noti-ul > #ul9 {width: 1200px; height: 51px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul9 > ul > li {float: left; margin: 17px 311px 0 13px;}
+.noti-ul > #ul9 > ul > li:nth-of-type(2) {margin: 17px 0 0 20px;}
+
+.noti-ul > #ul10 {width: 1200px; height: 75px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul10 > ul > li {float: left; margin: 20px 125px 0 13px;}
+.noti-ul > #ul10 > ul > li:nth-of-type(2) {margin: 29px 0 0 103px;}
+
+.noti-ul > #ul11 {width: 1200px; height: 51px; border-bottom: 1px solid rgb(238, 238, 238);}
+.noti-ul > #ul11 > ul > li {float: left; margin: 17px 202px 0 13px;}
+.noti-ul > #ul11 > ul > li:nth-of-type(2) {margin: 17px 0 0 27px;}
+
+
+/*상품리뷰*/
+#pro-review {width: 1200px; height: 502px; margin: 0 auto;}
+/*title*/
+#pro-review > #title {width: 1200px; height: 48px; margin: 0 auto;
+border-bottom: 3px solid rgb(51, 51, 51);}
+#pro-review > #title > h1 {width: 1200px; height: 48px; margin: 0 auto; font-size: 24px;
+font-weight: 600; color: #333;}
+
+/*select-box*/
+#pro-review > #select-box {width: 1200px; height: 60px; margin: 0 auto;
+border-bottom: 1px solid #eee;}
+#select-box > select {width: 150px; height: 30px; float: left; font-size: 12px; color: #333;
+background-color: #fff; padding: 0 18px; margin: 15px 0 0 5px;}
+#select-box > button {width: 96px; height: 30px; float: right; font-size: 12px; color: #fff;
+background-color: #333; padding: 5px 7px 5px 7px; margin: 15px 5px 0 0; border-radius: 3px;
+border: none; cursor: pointer;}
+
+/*review-box*/
+#pro-review > #review-box {width: 1200px; height: 300px; margin: 0 auto;}
+#review-box > .review1 {width: 1200px; height: 60px; border-bottom: 1px solid #eee;}
+/*review1*/
+.review1 > ul  {float: left; margin: 0 auto;}
+.review1 > ul > li {float: left; font-size: 15px; color: #999; margin: 20px 0 0 0;}
+.review1 > ul > li:nth-of-type(6) {color: #333; margin: 23px 50px 0 50px;}
+.review1 > ul > li > img {width: 18px; height: 18px;}
+.review1 > ul > li > img:nth-of-type(1) {margin: 0 10px 0 0;}
+
+.review1 > ul > li:nth-of-type(1) {margin: 20px 0 0 50px;}
+.review1 > ul > li:nth-of-type(7) {margin: 23px 50px 0 235px;}
+.review1 > ul > li:nth-of-type(8) {margin: 23px 100px 0 60px;}
+/*review2*/
+#review-box > .review2 {width: 1200px; height: 60px; border-bottom: 1px solid #eee;}
+.review2 > ul  {float: left; margin: 0 auto;}
+.review2 > ul > li {float: left; font-size: 15px; color: #999; margin: 20px 0 0 0;}
+.review2 > ul > li:nth-of-type(6) {color: #333; margin: 23px 50px 0 50px;}
+.review2 > ul > li > img {width: 18px; height: 18px;}
+.review2 > ul > li > img:nth-of-type(1) {margin: 0 10px 0 0;}
+
+.review2 > ul > li:nth-of-type(1) {margin: 20px 0 0 50px;}
+.review2 > ul > li:nth-of-type(7) {margin: 23px 50px 0 300px;}
+.review2 > ul > li:nth-of-type(8) {margin: 23px 100px 0 48px;}
+/*review3*/
+#review-box > .review3 {width: 1200px; height: 60px; border-bottom: 1px solid #eee;}
+.review3 > ul  {float: left; margin: 0 auto;}
+.review3 > ul > li {float: left; font-size: 15px; color: #999; margin: 20px 0 0 0;}
+.review3 > ul > li:nth-of-type(6) {color: #333; margin: 23px 50px 0 50px;}
+.review3 > ul > li > img {width: 18px; height: 18px;}
+.review3 > ul > li > img:nth-of-type(1) {margin: 0 10px 0 0;}
+
+.review3 > ul > li:nth-of-type(1) {margin: 20px 0 0 50px;}
+.review3 > ul > li:nth-of-type(7) {margin: 23px 50px 0 93px;}
+.review3 > ul > li:nth-of-type(8) {margin: 23px 100px 0 57px;}
+/*review4*/
+#review-box > .review4 {width: 1200px; height: 60px; border-bottom: 1px solid #eee;}
+.review4 > ul  {float: left; margin: 0 auto;}
+.review4 > ul > li {float: left; font-size: 15px; color: #999; margin: 20px 0 0 0;}
+.review4 > ul > li:nth-of-type(6) {color: #333; margin: 23px 50px 0 50px;}
+.review4 > ul > li > img {width: 18px; height: 18px;}
+.review4 > ul > li > img:nth-of-type(1) {margin: 0 10px 0 0;}
+
+.review4 > ul > li:nth-of-type(1) {margin: 20px 0 0 50px;}
+.review4 > ul > li:nth-of-type(7) {margin: 23px 50px 0 260px;}
+.review4 > ul > li:nth-of-type(8) {margin: 23px 100px 0 49px;}
+/*review5*/
+#review-box > .review5 {width: 1200px; height: 60px; border-bottom: 1px solid #eee;}
+.review5 > ul  {float: left; margin: 0 auto;}
+.review5 > ul > li {float: left; font-size: 15px; color: #999; margin: 20px 0 0 0;}
+.review5 > ul > li:nth-of-type(6) {color: #333; margin: 23px 50px 0 50px;}
+.review5 > ul > li > img {width: 18px; height: 18px;}
+.review5 > ul > li > img:nth-of-type(1) {margin: 0 10px 0 0;}
+
+.review5 > ul > li:nth-of-type(1) {margin: 20px 0 0 50px;}
+.review5 > ul > li:nth-of-type(7) {margin: 23px 50px 0 178px;}
+.review5 > ul > li:nth-of-type(8) {margin: 23px 100px 0 57px;}
+
+
+/*상품배송*/
+#pro-delivery {width: 1200px; height: 1896px; margin: 0 auto;}
+/*deli-tit*/
+#pro-delivery  > #deli-tit {width: 1200px; height: 48px; margin: 0 auto;
+border-bottom: 3px solid rgb(51, 51, 51);}
+#deli-tit > h1 {width: 1200px; height: 48px; margin: 0 auto; font-size: 24px;
+font-weight: 600; color: #333;}
+
+/*deli-noti*/
+#pro-delivery > #deli-noti {width: 1200px; height: 750px; margin: 0 auto;}
+/*noti1*/
+#deli-noti > .noti1 {width: 1200px; height: 225px; margin: 0 auto;}
+.noti1 > .noti1-1 {width: 600px; height: 225px; float: left; margin: 0 auto;}
+.noti1 > .noti1-1 > h3 {margin: 30px 0 0 30px;}
+.noti1 > .noti1-1 > h3 > strong {font-size: 18px; color: #333;}
+.noti1 > .noti1-1 > p > span {font-size: 15px; color: #222; margin: 10px 0 0 0;}
+.noti1 > .noti1-1 > p {font-size: 15px; color: #666; margin: 10px 0 0 30px; line-height: 1.3}
+.noti1 > .noti1-1 > p:nth-of-type(2) {margin: 20px 0 25px 30px;}
+.noti1 > .noti1-1 > img {float: right; margin: -20px 40px 0 0;}
+
+
+.noti1 > .noti1-2 {width: 600px; height: 225px; float: right; margin: 0 auto;}
+.noti1 > .noti1-2 > h3 {margin: 30px 0 0 30px;}
+.noti1 > .noti1-2 > h3 > strong {font-size: 18px; color: #333;}
+.noti1 > .noti1-2 > p > span {font-size: 15px; color: #222; margin: 10px 0 0 0;}
+.noti1 > .noti1-2 > p {font-size: 15px; color: #666; margin: 10px 0 0 30px; line-height: 1.3}
+.noti1 > .noti1-2 > p:nth-of-type(2) {margin: 20px 0 25px 30px;}
+.noti1 > .noti1-2 > img {float: right; margin: -20px 40px 0 0;}
+
+
+/*noti2*/
+#deli-noti > .noti2 {width: 1200px; height: 225px; margin: 0 auto;}
+.noti2 > .noti2-1 {width: 600px; height: 225px; float: left; margin: 0 auto;}
+.noti2 > .noti2-1 > h3 {margin: 30px 0 0 30px;}
+.noti2 > .noti2-1 > h3 > strong {font-size: 18px; color: #333;}
+.noti2 > .noti2-1 > p > span {font-size: 15px; color: #222; margin: 10px 0 0 0;}
+.noti2 > .noti2-1 > p {font-size: 15px; color: #666; margin: 10px 0 0 30px; line-height: 1.3}
+.noti2 > .noti2-1 > p:nth-of-type(2) {margin: 20px 0 25px 30px;}
+.noti2 > .noti2-1 > img {float: right; margin: -20px 40px 0 0;}
+
+
+.noti2 > .noti2-2 {width: 600px; height: 225px; float: right; margin: 0 auto;}
+.noti2 > .noti2-2 > h3 {margin: 30px 0 0 30px;}
+.noti2 > .noti2-2 > h3 > strong {font-size: 18px; color: #333;}
+.noti2 > .noti2-2 > p > span {font-size: 15px; color: #222; margin: 10px 0 0 0;}
+.noti2 > .noti2-2 > p {font-size: 15px; color: #666; margin: 10px 0 0 30px; line-height: 1.3}
+.noti2 > .noti2-2 > p:nth-of-type(2) {margin: 20px 0 25px 30px;}
+.noti2 > .noti2-2 > img {float: right; margin: -20px 40px 0 0;}
+
+
+/*noti3*/
+#deli-noti > .noti3 {width: 1200px; height: 200px; margin: 0 auto; float: left;}
+.noti3 > h3 {margin: 30px 0 0 30px;}
+.noti3 > h3 > strong {font-size: 18px; color: #333;}
+.noti3 > p {font-size: 15px; color: #666; margin: 20px 0 -5px 30px;}
+
+
+
+/*change-tit*/
+#pro-delivery > #change-tit {width: 1200px; height: 48px; margin: 0 auto;
+border-bottom: 3px solid rgb(51, 51, 51);}
+#change-tit > h1 {width: 1200px; height: 48px; margin: 0 auto; font-size: 24px;
+font-weight: 600; color: #333;}
+
+
+/*change-noti*/
+#pro-delivery > #change-noti {width: 1200px; height: 1050px; margin: 0 auto;}
+#change-noti > table > tbody {width: 1200px; height: 1050px; margin: 0 auto;}
+#change-noti > table > tbody > tr {border-bottom: 1px solid #e0e0e0; margin: 10px 0 0 0;}
+#change-noti > table > tbody > tr > th {width: 450px; font-size: 16px; background: #f9fafb;
+color: #333; font-weight: 600; text-align: unset;}
+#change-noti > table > tbody > tr > td {width: 750px; font-size: 15px; color: #666; text-align: left;
+box-sizing: border-box; display: table-cell;}
+
+#change-noti > table > tbody > tr > th > h2 {margin: 10px 0 0 10px;}
+#change-noti > table > tbody > tr > td > p {display: block; margin: 15px 0 0 10px; line-height: 1.3;}
+
+#change-noti > table > tbody > tr:nth-of-type(1) {height: 140px;}
+#change-noti > table > tbody > tr:nth-of-type(2) {height: 115px;}
+#change-noti > table > tbody > tr:nth-of-type(3) {height: 200px;}
+#change-noti > table > tbody > tr:nth-of-type(4) {height: 105px;}
+#change-noti > table > tbody > tr:nth-of-type(5) {height: 170px;}
+#change-noti > table > tbody > tr:nth-of-type(6) {height: 170px;}
